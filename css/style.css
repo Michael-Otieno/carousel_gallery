@@ -1,0 +1,128 @@
+body{
+  font-family: "ATVFabriga",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif !important;
+
+}
+.slider-section{
+  padding: 50px;
+}
+
+.slider a{
+  text-decoration: none;
+  position: relative;
+}
+
+.slider img{
+  width: 100%;
+  height: 400px;
+}
+
+.item-slick.slick-slide.slick-current.slick-active{
+	outline: none!important;
+  border: 2px solid rgba(19, 78, 23, 0.767);
+}
+
+.slider-nav{
+  position: relative;
+  outline: none;
+}
+
+.slider-nav li{
+  max-width: 200px;
+  outline: none!important;
+  cursor: pointer;
+  list-style: none;
+}
+
+.slider-nav img{
+  height: 100px;
+  width: 100%;
+}
+.slider .prev_arrow{
+  position: absolute;
+  top: 50%;
+  left: 2%;
+  z-index: 10;
+  color: #fff;
+  width: 30px;
+  height: 50px;
+  background: rgba(14, 43, 16, 0.637);
+  border-radius: 15%;
+  text-align: center;
+  line-height: 49px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.slider .next_arrow{
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  right: 2%;
+  color: #fff;
+  width: 30px;
+  height: 50px;
+  background: rgba(14, 43, 16, 0.637);
+  border-radius: 15%;
+  text-align: center;
+  line-height: 49px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.slider .prev_arrow:hover,
+.slider .next_arrow:hover{
+  background-color: rgba(15, 94, 21, 0.726);
+}
+
+
+.slider-nav .prev_arrow{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  color: #fff;
+  width: 30px;
+  height: 105px;
+  background:  rgba(19, 78, 23, 0.767);
+  border-radius: 0px 0px 0px 4px;
+  text-align: center;
+  line-height: 106px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.slider-nav .next_arrow{
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  right: 0;
+  color: #fff;
+  width: 30px;
+  height: 100px;
+  background: rgba(19, 78, 23, 0.767);
+  border-radius: 0px 0px 4px 0px;
+  text-align: center;
+  line-height: 106px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+
+/* fancybox styles */
+.myFancyBox .fancybox-thumbs {
+  top: auto;
+  width: auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 95px;
+  padding: 10px 10px 5px 10px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.myFancyBox .fancybox-show-thumbs .fancybox-inner {
+  right: 0;
+  bottom: 95px;
+}
+
