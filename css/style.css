@@ -84,7 +84,6 @@ body{
   width: 30px;
   height: 105px;
   background:  rgba(19, 78, 23, 0.767);
-  border-radius: 0px 0px 0px 4px;
   text-align: center;
   line-height: 106px;
   display: inline-block;
@@ -100,7 +99,6 @@ body{
   width: 30px;
   height: 100px;
   background: rgba(19, 78, 23, 0.767);
-  border-radius: 0px 0px 4px 0px;
   text-align: center;
   line-height: 106px;
   display: inline-block;
