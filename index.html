@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <title>Responsive Gallery Lightbox with jQuery (slick.js and fancybox.js)</title>
     <!-- font-awesome -->
     <script src="https://kit.fontawesome.com/29033e35ea.js" crossorigin="anonymous"></script>
     <!-- bootstrap -->
@@ -15,7 +16,6 @@
       crossorigin="anonymous"
     />
 
-  
     <!-- fancybox css -->
     <link
       rel="stylesheet"
@@ -23,13 +23,14 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css"
     />
       <!-- slick css -->
-      <link rel="stylesheet" href="/css/slick.css" />
+      <!-- <link rel="stylesheet" href="/css/slick.css" /> -->
+      <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
 
     <!-- style css -->
     <link rel="stylesheet" href="/css/style.css" />
-    <title>Document</title>
   </head>
-  <body>
+  <body style="background-color: rgb(214, 248, 214);">
     <section class=" container slider-section" id="slider-section">
       <div class="container text-center">
         <h1>Gallery Slider with fancybox.js and slick.js</h1>
@@ -175,8 +176,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 
      <!-- slick js -->
-     <script src="/js/slick.min.js"></script>
+     <!-- <script src="/js/slick.min.js"></script> -->
 
+     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
    
     <!-- script js file -->
     <script src="/js/script.js"></script>
